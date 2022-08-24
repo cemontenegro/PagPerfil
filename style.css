@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+/* Navegador de pagina */
+header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 15px 50px;
+}
+
+a{
+    color:#c7c7c7;
+    margin: 0px 25px;
+    text-decoration: none;
+}
+
+.active{
+    font-weight: bold;
+    color: white;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    list-style:none;
+}
+
+button{
+    background-color: #17a2b8;
+    padding: 5px 20px;
+    color: white;
+    font-family: cursive;
+    font-size: 15px;
+}
+
+/* Desarrollo de pagina */
+.contenido{
+    /* padding: 10px 150px; */
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-around;
+}
+
+.col-i{
+    flex: 2;
+    margin: 30px 15px 30px 0px;
+}
+
+.col-d{
+    flex: 1;
+    margin: 30px 0px 30px 15px;
+}
+
+/* Desarrollo de columna izquierda*/
+/* .tarjeta{
+   margin: 0 auto;
+} */
+
+.bloque1{
+    height: 100px;
+    background: #17a2b8;
+    border: 2px solid #17a2b8;
+}
+
+.user img{
+    height: 100px;
+    width: 100px;
+    border: 3px solid #cccccc;
+    padding: 3px;
+    background-color: white;
+    border-radius: 100px;
+    margin-left: 45px;
+    margin-top: 45px;
+}
+
+.bloque2{
+    border-bottom: 4px solid #cccccc;
+    border-left: 4px solid #cccccc;
+    border-right: 4px solid #cccccc;
+    display: flex;
+    align-items:flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 60px 0px 30px 50px;
+    margin-bottom: 30px;
+}
+
+.ubicacion img{
+    height: 20px;
+    padding: 0px 10px;
+}
+
+.ubicacion{
+    display: flex;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+.edit img{
+    height: 18px;
+}
+
+.edit{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.edit p{
+    padding-left: 10px;
+    color: #085394;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Desarrollo de columna derecha */
+
+.b1{
+    background-color: black;
+    height: 70px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: lighter;
+}
+
+.cant1{
+    background-color: #cccccc;
+    padding: 0px 7px;
+    color: black;
+    border-radius: 20px;
+}
+.b2{
+    border-bottom: 4px solid #cccccc;
+    border-left: 4px solid #cccccc;
+    border-right: 4px solid #cccccc;
+    display: flex;
+    align-items:flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+#edu{
+    display: flex;
+    align-content: flex-start;
+}
