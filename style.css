@@ -4,13 +4,15 @@
     font-family: cursive;
 }
 /* Navegador de pagina */
-header{
+.nav{
     background-color: black;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 50px;
     color: white;
-    padding: 15px 50px;
+    padding: 15px 150px;
+    position:static;
 }
 
 a{
@@ -35,13 +37,12 @@ button{
     background-color: #17a2b8;
     padding: 5px 20px;
     color: white;
-    font-family: cursive;
     font-size: 15px;
 }
 
 /* Desarrollo de pagina */
 .contenido{
-    /* padding: 10px 150px; */
+    padding: 10px 150px;
     display: flex;
     align-items: flex-start;
     justify-content:space-around;
@@ -143,14 +144,33 @@ button{
     border-right: 4px solid #cccccc;
     display: flex;
     align-items:flex-start;
-    justify-content: flex-end;
+    justify-content:space-evenly;
     flex-direction: column;
-    padding-left: 50px;
-    padding-top: 60px;
-    padding-bottom: 30px;
     margin-bottom: 30px;
 }
 #edu{
+    display: block;
+}
+.tituloedu{
+    padding: 20px;
+}
+
+.user2 img{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+.user2{
     display: flex;
-    align-content: flex-start;
+    align-items:flex-start;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+}
+
+.u2 {
+    margin-left: auto;
 }
