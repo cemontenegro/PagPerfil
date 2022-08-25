@@ -1,18 +1,32 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: cursive;
+    font-family: 'Montserrat', sans-serif;
 }
-/* Navegador de pagina */
-.nav{
+
+.top {
     background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 50px;
     color: white;
-    padding: 15px 150px;
-    position:static;
+    height: 70px;
+}
+
+.contenido, .nav{
+    width: 1000px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.nav{
+    justify-content: space-between;
+    align-items: center;
+    height: inherit;
+}
+
+.nav-links{
+    display:flex;
+    align-items: center;
+    justify-content: start;
+    margin: 0;
 }
 
 a{
@@ -27,26 +41,19 @@ a{
 }
 
 ul{
-    display: flex;
-    align-items: center;
-    justify-content:space-between;
+    display:inline-flex;
     list-style:none;
+    margin: 10px;
 }
 
 button{
     background-color: #17a2b8;
     padding: 5px 20px;
     color: white;
-    font-size: 15px;
+    font-size: 20px;
 }
 
-/* Desarrollo de pagina */
-.contenido{
-    padding: 10px 150px;
-    display: flex;
-    align-items: flex-start;
-    justify-content:space-around;
-}
+/* Desarrollo de pagina*/
 
 .col-i{
     flex: 2;
@@ -59,9 +66,6 @@ button{
 }
 
 /* Desarrollo de columna izquierda*/
-/* .tarjeta{
-   margin: 0 auto;
-} */
 
 .bloque1{
     height: 100px;
@@ -80,14 +84,10 @@ button{
     margin-top: 45px;
 }
 
-.bloque2{
+#bloque2{
     border-bottom: 4px solid #cccccc;
     border-left: 4px solid #cccccc;
     border-right: 4px solid #cccccc;
-    display: flex;
-    align-items:flex-start;
-    justify-content: flex-end;
-    flex-direction: column;
     padding: 60px 0px 30px 50px;
     margin-bottom: 30px;
 }
@@ -98,7 +98,7 @@ button{
 }
 
 .ubicacion{
-    display: flex;
+    display:inline-flex;
     padding-bottom: 20px;
     align-items: center;
 }
@@ -108,12 +108,11 @@ button{
 }
 
 .edit{
-    display: flex;
-    align-items: center;
+    display:inline-flex;
     padding-top: 20px;
 }
 
-.edit p{
+.edit p, .b3 p{
     padding-left: 10px;
     color: #085394;
     text-decoration: underline;
@@ -121,6 +120,10 @@ button{
 }
 
 /* Desarrollo de columna derecha */
+
+.yc{
+    margin-top: 30px;
+}
 
 .b1{
     background-color: black;
@@ -138,24 +141,22 @@ button{
     color: black;
     border-radius: 20px;
 }
-.b2{
+.b2, .b3{
     border-bottom: 4px solid #cccccc;
     border-left: 4px solid #cccccc;
     border-right: 4px solid #cccccc;
-    display: flex;
-    align-items:flex-start;
-    justify-content:space-evenly;
-    flex-direction: column;
-    margin-bottom: 30px;
+    padding: 10px;
 }
+
 #edu{
     display: block;
 }
+
 .tituloedu{
     padding: 20px;
 }
 
-.user2 img{
+.user2 img, .user3 img{
     height: 50px;
     width: 50px;
     background-color: white;
@@ -164,13 +165,23 @@ button{
 }
 
 .user2{
-    display: flex;
-    align-items:flex-start;
-    justify-content: space-around;
-    flex-direction: row;
+    width: 100%;
+    display:inline-flex;
+}
+.u1{
+    display:inline-flex;
+    align-items: center;
+}
+
+.user3{
     width: 100%;
 }
 
 .u2 {
     margin-left: auto;
+}
+
+.fecha{
+    color: #cccccc;
+    margin-bottom: 10px;
 }
